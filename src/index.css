@@ -181,3 +181,20 @@ p {
 main {
   padding-bottom: 2rem;
 }
+
+
+/* scroll bar */
+::-webkit-scrollbar {
+  width: 0.8rem;
+  border-radius: 0.2rem;
+  background-color: var(--clr-grey-9);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.2rem;
+  background-color: var(--clr-grey-7);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--clr-grey-8);
+}
